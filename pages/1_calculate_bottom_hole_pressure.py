@@ -53,7 +53,7 @@ phyd_metric = 0.00981 * total_depth_metric * mud_density_metric
 sbp_metric = bhp_target_metric - phyd_metric
 
 Ppp_shoe_metric = 0.00981 * shoe_depth_metric * pore_pressure_metric
-Pover_balance_shoe_metric = 0.00981 * overbalance_required * shoe_depth_metric
+Pover_balance_shoe_metric = 0.00981 * overbalance_required_metric * shoe_depth_metric
 bhp_target_shoe_metric = Ppp_shoe_metric + Pover_balance_shoe_metric
 phyd_shoe_metric = 0.00981 * shoe_depth_metric * mud_density_metric
 sbp_shoe_metric = bhp_target_shoe_metric - phyd_shoe_metric
