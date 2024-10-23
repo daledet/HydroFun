@@ -61,4 +61,4 @@ sbp_shoe_metric = bhp_target_shoe_metric - phyd_shoe_metric
 st.write("### Results")
 col1, col2, col3 = st.columns(3)
 col1.metric(label="Static Bottom Hole Pressure m", value=f"{sbp_metric:,.1f} kPa")
-col2.metric(label="Static Bottom Hole Pressure m", value=f"{sbp_shoe_metric:,.1f} kPa")
+col2.metric(label="Static Shoe Pressurem", value=f"{sbp_shoe_metric:,.1f} kPa")
